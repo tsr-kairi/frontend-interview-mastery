@@ -2,7 +2,7 @@
 	<p>	
 		<a href="#">	
       <div>	
-<div style="width:150px;">
+<div style="width:80px;">
 
 ![alt fim-max](/HTML/html.png)
 
@@ -112,17 +112,17 @@ Every website has a specific layout to display content in a specific manner.
 
 ## ✍ 8. What are the entities in HTML?
 
-Answer : 
+Answer :
 
 The HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.
 
 <br>
 
-## ✍ 9. Does a ``<!DOCTYPE html>`` tag is a HTML tag?
+## ✍ 9. Does a `<!DOCTYPE html>` tag is a HTML tag?
 
 Answer :
 
-No, the ``<!DOCTYPE html>`` declaration is not an HTML tag.
+No, the `<!DOCTYPE html>` declaration is not an HTML tag.
 
 <br>
 
@@ -133,16 +133,16 @@ Answer :
 The HTML 5 datalist tag provides an autocomplete feature on the form element. It facilitates users to choose the predefined options to the users to select data.
 
 ```html
-<label>    
- Enter your favorite cricket player: Press any character<br />    
- <input type="text" id="favCktPlayer" list="CktPlayers">    
- <datalist id="CktPlayers">    
- <option value="Mahendra Singh Dhoni">     
- <option value="Sachin Tendulkar">    
- <option value="Brian Lara">      
- <option value="AB diVilliers">     
- <option value="Adam Gilchrist">    
- </datalist>    
+<label>
+  Enter your favorite cricket player: Press any character<br />
+  <input type="text" id="favCktPlayer" list="CktPlayers" />
+  <datalist id="CktPlayers">
+    <option value="Mahendra Singh Dhoni"></option>
+    <option value="Sachin Tendulkar"></option>
+    <option value="Brian Lara"></option>
+    <option value="AB diVilliers"></option>
+    <option value="Adam Gilchrist"></option>
+  </datalist>
 </label>
 ```
 
@@ -157,12 +157,12 @@ It forces a user to fill text on the text field or text area before submitting t
 ### <b>Example:</b>
 
 ```html
-Name : <input type="text" name="name" required>  
- ```
+Name : <input type="text" name="name" required />
+```
 
 <br>
 
-## ✍ 12. What are the new ``<input>`` types for form validation in HTML5?
+## ✍ 12. What are the new `<input>` types for form validation in HTML5?
 
 Answer :
 
@@ -171,8 +171,9 @@ The new input types for form validation are email, URL, number, tel, and date.
 ### <b>Example:</b>
 
 ```html
-<input type="email">    
- ```
+<input type="email" />
+```
+
  <br>
 
 ## ✍ 13. What does a DOCTYPE do?
@@ -185,6 +186,6 @@ DOCTYPE is an abbreviation for Document Type. A DOCTYPE is always associated to 
 
 ## ✍ 13. What is the difference between HTML elements and tags?
 
-Answer : 
+Answer :
 
 HTML elements communicate to the Browser how to represent the text. They become HTML tags when enclosed within angular brackets <>.
