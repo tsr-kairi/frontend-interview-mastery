@@ -2,7 +2,7 @@
 	<p>	
 		<a href="#">	
       <div>	
-<div style="width:60px;">
+<div style="width:120px;">
 
 ![alt fim-max](/HTML/html.png)
 
@@ -565,36 +565,29 @@ Answer :
 
 No. The `<datalist>` tag and `<select>` tag are different. In the case of `<select>` tag a user will have to choose from a list of options, whereas `<datalist>` when used along with the `<input> `tag provides a suggestion that the user selects one of the options given or can enter some entirely different value.
 
-
 ```html
 <!DOCTYPE html>
 <html>
-  
-<body>
+  <body>
     <h1>frontend-interview-mastery</h1>
     <h3>Using Datalist</h3>
-    <label for="courses">
-        Choose your favorite course from the list:
-    </label>
-      
-    <input list="courses" name="course" id="course">
-      
+    <label for="courses"> Choose your favorite course from the list: </label>
+
+    <input list="courses" name="course" id="course" />
+
     <datalist id="courses">
-        <option value="Java">
-        <option value="C++">
-        <option value="Python">
-        <option value="DSA">
-        <option value="ML and AI">
+      <option value="Java"></option>
+      <option value="C++"></option>
+      <option value="Python"></option>
+      <option value="DSA"></option>
+      <option value="ML and AI"></option>
     </datalist>
-  
+
     <p style="color: gray;">
-        User can choose an option from a 
-        given options <br>and also give 
-        an input and filter values from 
-        the option list.
+      User can choose an option from a given options <br />and also give an input and
+      filter values from the option list.
     </p>
-</body>
-  
+  </body>
 </html>
 ```
 
@@ -604,35 +597,35 @@ No. The `<datalist>` tag and `<select>` tag are different. In the case of `<sele
 
 Answer :
 
-Semantic elements are those which describe the particular meaning to the browser and the developer. Elements like ``<form>, <table>, <article>,`` ``<figure>``, etc., are semantic elements.
+Semantic elements are those which describe the particular meaning to the browser and the developer. Elements like `<form>, <table>, <article>,` `<figure>`, etc., are semantic elements.
 
 <br>
 
-## ✍ 40.  Which tag is used for representing the result of a calculation? Explain its attributes.
+## ✍ 40. Which tag is used for representing the result of a calculation? Explain its attributes.
 
 Answer :
 
-The ``<output>`` tag is used for representing the result of a calculation. It has the following attributes:
+The `<output>` tag is used for representing the result of a calculation. It has the following attributes:
 
-- ``for -``  It defines the relationship between the elements used in calculation and result.
-- ``form -`` This is used to define the form the output element belongs to.
-- ``name -`` The name of the output element.
+- `for -` It defines the relationship between the elements used in calculation and result.
+- `form -` This is used to define the form the output element belongs to.
+- `name -` The name of the output element.
 
 ```html
-<form oninput = "result.value=parseInt(n1.value)+parseInt(n2.value)">
-     <input type = "number" name = "n1" value = "1" /> +
-     <input type = "number" name = "n2" value = "2" /><br />
-     The output is: <output name = "result"></output>
+<form oninput="result.value=parseInt(n1.value)+parseInt(n2.value)">
+  <input type="number" name="n1" value="1" /> +
+  <input type="number" name="n2" value="2" /><br />
+  The output is: <output name="result"></output>
 </form>
 ```
 
 <br>
 
-## ✍ 41.  Are ``<br>`` tags the only way to separate sections of text?
+## ✍ 41. Are `<br>` tags the only way to separate sections of text?
 
 Answer :
 
-No. The ``<br>`` tag is only one way to separate lines of text. Other tags, like the ``<p>`` tag and ``<blockquote>`` tag, also separate sections of text.
+No. The `<br>` tag is only one way to separate lines of text. Other tags, like the `<p>` tag and `<blockquote>` tag, also separate sections of text.
 
 <br>
 
@@ -643,27 +636,26 @@ Answer :
 So let’s say you have a HTML paragraph tag with id “mytext” as shown in the below snippet.
 
 ```html
-<p id="mytext">This is HTML interview questions.</p> 
+<p id="mytext">This is HTML interview questions.</p>
 ```
 
 You can create a style using “#” selector with the “id” name and apply the CSS value to the paragraph tag. So to apply style to “mytext” element we can use “#mytext” as shown in the below CSS code.
 
 ```html
 <style>
-#mytext
-{
-background-color:yellow;
-}
+  #mytext {
+    background-color: yellow;
+  }
 </style>
 ```
 
 <br>
 
-## ✍ 42. What is the difference between ``<span>`` and ``<div>`` ?
+## ✍ 42. What is the difference between `<span>` and `<div>` ?
 
 Answer :
 
-The difference is that span gives the output with ``display: inline`` and div gives the output with ``display: block``.
+The difference is that span gives the output with `display: inline` and div gives the output with `display: block`.
 
 span is used when we need our elements to be shown in a line, one after the other.
 
@@ -675,7 +667,7 @@ Answer :
 
 An empty sequence of space characters is called the white space in HTML. This white space is considered as a single space character in the HTML.
 
-White space helps the browser to merge multiple spaces into one single space, and so taking care of indentation becomes easier. White space helps in better organizing the content and tags, making them readable and easy to understand.                                  |
+White space helps the browser to merge multiple spaces into one single space, and so taking care of indentation becomes easier. White space helps in better organizing the content and tags, making them readable and easy to understand. |
 
 <br
 
@@ -683,10 +675,10 @@ White space helps the browser to merge multiple spaces into one single space, an
 
 Answer :
 
-Each tag has additional attributes that change the way the tag behaves or is displayed. For example, a ``<input> ``tag has a type attribute, which you can use to specify whether it’s a text field, checkbox, radio button or one of many more options.
-``Attributes`` are specified directly after the name of the ``tag``, inside the two angled brackets. They should only ever appear in opening tags or in self-closing tags. But, they can never be in ``closing tags``.
+Each tag has additional attributes that change the way the tag behaves or is displayed. For example, a `<input> `tag has a type attribute, which you can use to specify whether it’s a text field, checkbox, radio button or one of many more options.
+`Attributes` are specified directly after the name of the `tag`, inside the two angled brackets. They should only ever appear in opening tags or in self-closing tags. But, they can never be in `closing tags`.
 
-``Example:``
+`Example:`
 
 ```html
 <!-- Text field -->
@@ -703,7 +695,7 @@ Each tag has additional attributes that change the way the tag behaves or is dis
 
 Answer :
 
-The HTML iframe tag is used to display a nested webpage. In other words, it represents a webpage within a webpage. The HTML ``<iframe>`` tag defines an inline frame. For example:
+The HTML iframe tag is used to display a nested webpage. In other words, it represents a webpage within a webpage. The HTML `<iframe>` tag defines an inline frame. For example:
 
 ```html
 <!DOCTYPE html>
@@ -725,15 +717,16 @@ Answer :
 To insert a picture into the background image, you need to place a tag code after the </head> tag in the following way:
 
 ```html
-<body background = “image.gif”>
-  ```
-  Now, replace image.gif with the name of your image file. This will take the picture and make it the background image of your web page.
+<body background="“image.gif”"></body>
+```
+
+Now, replace image.gif with the name of your image file. This will take the picture and make it the background image of your web page.
 
   <br>
 
 ## ✍ 47. What happens if you open the external CSS file in a browser?
-  
-  Answer :
+
+Answer :
 
 When you try to open the external CSS file in a browser, the browser cannot open the file, because the file has a different extension. The only way to use an external CSS file is to reference it using <link/> tag within another HTML document.
 
@@ -746,7 +739,7 @@ Answer :
 To change the text into a clickable link to send an email, you need to use the mailto command within the href tag. You can write it in the following way:
 
 ```html
-<a href=”mailto:youremailaddress”>text to be clicked</a>
+<a href="”mailto:youremailaddress”">text to be clicked</a>
 ```
 
 <br>
@@ -757,10 +750,10 @@ Answer :
 
 Anchor tag in HTML is used to link between two sections or two different web pages or website templates.
 
-To open an URL into a new tab in the browser upon a click, we need to add target attribute equal to ``_blank``.
+To open an URL into a new tab in the browser upon a click, we need to add target attribute equal to `_blank`.
 
 ```html
-<a href=”#” target=”_blank”></a>
+<a href="”#”" target="”_blank”"></a>
 ```
 
 ## ✍ 50. Can we modify the attribute’s value of the HTML tag dynamically?
@@ -769,11 +762,10 @@ Answer :
 
 Yes, we can modify the value of the attributes by using JavaScript.
 
-Below is the input element whose attribute will be modified from ``text`` to ``password`` , JS code to modify the attribute value:
-
+Below is the input element whose attribute will be modified from `text` to `password` , JS code to modify the attribute value:
 
 ```html
-<input type=“text” id=“inputField”>
+<input type="“text”" id="“inputField”" />
 document.getElementById(“inputField”).attr(“type”, “password”);
 ```
 
@@ -785,7 +777,7 @@ document.getElementById(“inputField”).attr(“type”, “password”);
 <div align="center">
 
 ## Thanks for stay connected lovely readers
-### For more →  [Continue](/README.md)
 
+### For more → [Continue](/README.md)
 
 </div>
