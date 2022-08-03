@@ -669,15 +669,13 @@ span is used when we need our elements to be shown in a line, one after the othe
 
 <br>
 
-## ✍ 43.  What is the difference between HTML elements and tags?
+## ✍ 43. What is white space in HTML?
 
 Answer :
 
-Consider the following :
+An empty sequence of space characters is called the white space in HTML. This white space is considered as a single space character in the HTML.
 
-| Elements                                                                            | Tags                                                                                    |
-| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| The element is an individual component of the HTML web page or document. It represents semantics or meaning. For example, the title element represents the title of the document.                                                                    | It is the root of the HTML document which is used to specify that the document is HTML. For example, the Head tag is used to contain all the head element in the HTML file.                                         |
+White space helps the browser to merge multiple spaces into one single space, and so taking care of indentation becomes easier. White space helps in better organizing the content and tags, making them readable and easy to understand.                                  |
 
 <br
 
