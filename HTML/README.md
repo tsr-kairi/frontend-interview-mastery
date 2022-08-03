@@ -2,7 +2,7 @@
 	<p>	
 		<a href="#">	
       <div>	
-<div style="width:120px;">
+<div style="width:60px;">
 
 ![alt fim-max](/HTML/html.png)
 
